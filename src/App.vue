@@ -1,17 +1,16 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="container mt-5 mb-5" style="width:500px;">
+    <FormValidation></FormValidation>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FormValidation from './components/FormValidation.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    FormValidation
   }
 }
 </script>
